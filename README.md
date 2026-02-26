@@ -22,6 +22,23 @@ Examines Iowa State's effectiveness with run vs. pass plays inside the red zone 
 - **Blue dot**: Average yards gained by a passing play in the red zone
 - Broken down by opponent to identify Iowa State's recipe for red zone success against different defenses
 
+## Project Structure
+
+```
+situational-football-analytics/
+├── .github/
+│   └── PULL_REQUEST_TEMPLATE.md  # PR description template
+├── data/
+│   ├── raw/                       # Raw, unmodified game data
+│   └── processed/                 # Cleaned/transformed data
+├── notebooks/                     # Jupyter notebooks for analysis
+├── outputs/                       # Generated graphs and visualizations
+├── reports/                       # Written reports and presentations
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
+
 ## Data
 
 Play-by-play data from Iowa State's 2025 football season, filtered to Iowa State offensive plays only.
